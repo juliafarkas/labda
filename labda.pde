@@ -21,6 +21,10 @@ class Labda {
 
     x=x+3;
   }
+  void nojjel (){
+ sugar = sugar+2;
+  
+  }
   boolean bent_van () {
     if (x>0 && x<420 && y>0 && y<420) {
       return true;
@@ -58,7 +62,7 @@ void draw () {
   sarga_labda.rajzold_ki();
   zold_labda.rajzold_ki();
   pink_labda.rajzold_ki();
-
+  pink_labda.nojjel();
 
   if (pink_labda.bent_van()) {
     pink_labda.fel();
